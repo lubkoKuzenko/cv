@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lyubomyr Kuzenko - CV 2026</title>
+<style>
+  @media print {
+    body { margin: 0; }
+    .page-break { page-break-before: always; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  .header-left { flex: 1; }
+  .header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+  }
+  .header .subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  .contact-table {
+    font-size: 14px;
+  }
+  .contact-table td {
+    padding: 2px 0;
+  }
+  .contact-table .label {
+    font-weight: bold;
+    width: 130px;
+    color: #333;
+  }
+  .contact-table .value {
+    color: #444;
+  }
+
+  /* ===== SECTIONS ===== */
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1a1a2e;
+  }
+
+  /* ===== WORK EXPERIENCE ===== */
+  .job {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 17px;
+  }
+  .job-logo {
+    width: 65px;
+    flex-shrink: 0;
+    padding-top: 3px;
+  }
+  .job-logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  .job-content { flex: 1; }
+  .job-company {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 2px;
+  }
+  .job-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #1a1a2e;
+  }
+  .job-dates {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  .job-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .job-content ul li {
+    font-size: 13.5px;
+    padding: 2px 0;
+    padding-left: 15px;
+    position: relative;
+    color: #333;
+  }
+  .job-content ul li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    color: #888;
+  }
+  .job-note {
+    font-size: 13px;
+    color: #999;
+    font-style: italic;
+    margin-top: 5px;
+  }
+
+  /* ===== SKILLS ===== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 30px;
+  }
+  .skill-item {
+    font-size: 13.5px;
+    padding: 2px 0;
+    color: #333;
+  }
+  .skill-item::before {
+    content: "✔ ";
+    color: #27ca40;
+    font-weight: bold;
+  }
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  .skills-list li {
+    font-size: 13.5px;
+    padding: 3px 0;
+    color: #333;
+  }
+  .skills-list li::before {
+    content: "✔ ";
+    color: #27ca40;
+    font-weight: bold;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    margin-top: 40px;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<div class="header">
+  <div class="header-left">
+    <h1>Lyubomyr Kuzenko</h1>
+    <div class="subtitle">Engineering Department Manager | Front-End Tech Lead | AI-Powered Development</div>
+    <table class="contact-table">
+      <tr><td class="label">Email</td><td class="value">lubko.lintu@gmail.com</td></tr>
+      <tr><td class="label">Phone</td><td class="value">+380 (96) 66-22-579</td></tr>
+      <tr><td class="label">Telegram</td><td class="value"><a href="https://t.me/lkuzenko" target="_blank" style="color:#1565C0;text-decoration:none;">@lkuzenko</a></td></tr>
+      <tr><td class="label">LinkedIn</td><td class="value"><a href="https://linkedin.com/in/lyubomyrkuzenko" target="_blank" style="color:#1565C0;text-decoration:none;">linkedin.com/in/lyubomyrkuzenko</a></td></tr>
+      <tr><td class="label">GitHub</td><td class="value"><a href="https://github.com/lubkoKuzenko" target="_blank" style="color:#1565C0;text-decoration:none;">github.com/lubkoKuzenko</a></td></tr>
+      <tr><td class="label">English</td><td class="value">Upper-Intermediate (B2)</td></tr>
+      <tr><td class="label">Location</td><td class="value">Lviv, Ukraine</td></tr>
+    </table>
+  </div>
+
+</div>
+
+<!-- ==================== SUMMARY ==================== -->
+<div class="section-title">Summary</div>
+<p style="font-size:14px; color:#333; line-height:1.7;">
+  Career path from senior developer to department manager - scaled a front-end team from 5 to 25+ engineers, conducted 200+ technical interviews, and led presales engagements. Now combines people management with hands-on Tech Lead engineering, powered by AI-first workflows.
+</p>
+
+<!-- ==================== TECHNICAL SKILLS ==================== -->
+<div class="section-title">Technical skills</div>
+<ul class="skills-list">
+  <li>HTML5, CSS3/SCSS, TypeScript, Tailwind CSS, Bootstrap, Material UI, PrimeNG</li>
+  <li>Angular (Material, NgRx, NGXS, Forms, Router, RxJS, i18n, Animations, PrimeNG, Nx)</li>
+  <li>React (MUI, TanStack Query, hooks, context, react-hook-form + Yup, Formik + Yup, react-i18next, Recharts, Nx)</li>
+  <li>Jest, Jasmine, React Testing Library, Playwright, Puppeteer, Storybook</li>
+  <li>Webpack, Vite, npm, Git, CI/CD</li>
+  <li>REST APIs, GraphQL, third-party integrations, Highcharts, D3.js, date-fns</li>
+</ul>
+
+<!-- ==================== AI & TOOLS ==================== -->
+<div class="section-title">AI-powered development</div>
+<ul class="skills-list">
+  <li>Claude Code - primary development tool, boosting delivery speed and code quality through AI-first workflows</li>
+  <li>GitHub Copilot - AI pair programming, code generation</li>
+  <li>AI-assisted code review - using AI tools to review PRs and catch issues</li>
+  <li>AI-driven testing - test generation, edge case discovery</li>
+  <li>Prompt engineering - crafting effective prompts for development workflows</li>
+
+</ul>
+
+<!-- ==================== MANAGEMENT ==================== -->
+<div class="section-title">Management experience</div>
+<ul class="skills-list">
+  <li>7+ years in engineering management across 2 companies, leading departments of up to 25+ engineers</li>
+  <li>Full employee lifecycle ownership: hiring, onboarding, performance reviews, career growth, retention</li>
+  <li>200+ technical interviews conducted across all seniority levels (Junior to Tech Lead)</li>
+  <li>Project kickoff: technology evaluation, risk assessment, team assembly, and staffing for new projects</li>
+  <li>Presales and client advisory: technical scoping, PoC delivery, project audits</li>
+  <li>Public speaking: technical talks at company events, AI conference presentations, and guest lectures for university students</li>
+</ul>
+
+<!-- ==================== WORK EXPERIENCE ==================== -->
+<div class="section-title">Work experience</div>
+
+<!-- ISsoft -->
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/issoft_ukraine_logo.jpeg" alt="ISsoft">
+  </div>
+  <div class="job-content">
+    <div class="job-company">ISsoft Ukraine</div>
+    <div class="job-title">Front-End Department Manager</div>
+    <div class="job-dates">May 2022 – present (~4 years)</div>
+    <ul>
+      <li>Grew the front-end department from 5 to 25+ engineers - hiring, career development, performance reviews, compensation planning, and mentorship</li>
+      <li>Own end-to-end staffing strategy: sourcing, interviewing process design, hiring decisions, team rotations, and bench management</li>
+      <li>Participated in presales for 3 projects; served as technical expert for 2 client project audits with improvement recommendations</li>
+      <li>Drive feature development through AI-first workflows (Claude Code, GitHub Copilot), combining hands-on Tech Lead engineering with prompt engineering</li>
+      <li>Partner with Training Center to drive talent development and AI tooling adoption across the department</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Levi9 -->
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/levi9_logo.jpeg" alt="Levi9">
+  </div>
+  <div class="job-content">
+    <div class="job-company">Levi9 Ukraine</div>
+    <div class="job-title">Front-End Department Manager</div>
+    <div class="job-dates">August 2018 – May 2022 (~3 years 10 months)</div>
+    <ul>
+      <li>Transitioned into engineering management, taking ownership of the front-end department's people operations, delivery, and growth strategy</li>
+      <li>Managed the full employee lifecycle: recruitment, onboarding, performance reviews, career development, retention, and offboarding</li>
+      <li>Led presales engagements - participated in client-facing meetings, scoped technical requirements, and built PoCs to win new business</li>
+      <li>Guided projects through initial phases, defining front-end architecture and staffing plans before handoff to delivery teams</li>
+      <li>Established cross-training and upskilling programs aligned with department objectives and emerging technology trends</li>
+    </ul>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-logo"></div>
+  <div class="job-content">
+    <div class="job-title">Senior Front-End Developer → Technical Lead</div>
+    <div class="job-dates">July 2017 – May 2022 (~5 years)</div>
+    <ul>
+      <li>Architected and built greenfield applications in React and Angular 2+, establishing project structure, tooling, and coding standards from day one</li>
+      <li>Designed scalable state management solutions using NgRx and Redux, handling complex data flows across large-scale SPAs</li>
+      <li>Developed a shared Angular component library (ng-packagr), enabling reuse across multiple project teams</li>
+      <li>Drove architectural decisions and technical direction for all front-end features, ensuring consistency and scalability</li>
+      <li>Owned estimation and code review processes, maintaining high code quality standards across the team</li>
+    </ul>
+  </div>
+</div>
+
+<!-- EPAM -->
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/epam_systems_logo.jpeg" alt="EPAM">
+  </div>
+  <div class="job-content">
+    <div class="job-company">EPAM Systems</div>
+    <div class="job-title">JavaScript Developer</div>
+    <div class="job-dates">April 2014 – May 2017 (~3 years)</div>
+    <ul>
+      <li>Delivered reusable, modular front-end components and interactive web interfaces for enterprise clients</li>
+      <li>Collaborated directly with clients to propose technical solutions and drive adoption of new approaches</li>
+      <li>Mentored junior developers through code reviews, pair programming, and knowledge-sharing sessions</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Early roles -->
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/ukeess_software_house_logo.jpeg" alt="UKEESS">
+  </div>
+  <div class="job-content">
+    <div class="job-company">UKEESS Software House</div>
+    <div class="job-title">Front-End Developer</div>
+    <div class="job-dates">December 2012 – March 2014 (~1 year 4 months)</div>
+    <ul>
+      <li>Built cross-browser web applications with XHTML/CSS, server-side integration, and XSL transforms</li>
+    </ul>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/webicom-logo.png" alt="Webicom" style="background:#ececec; padding:5px; border-radius:6px;">
+  </div>
+  <div class="job-content">
+    <div class="job-company">Webicom</div>
+    <div class="job-title">Web Developer</div>
+    <div class="job-dates">November 2011 – November 2012 (~1 year)</div>
+    <ul>
+      <li>Built and themed responsive websites on WordPress, Drupal, and OpenCart; developed standards-compliant HTML/CSS templates with cross-browser compatibility</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ==================== PAGE 2 ==================== -->
+<div class="page-break"></div>
+
+<!-- ==================== EDUCATION ==================== -->
+<div class="section-title">Education</div>
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/lnulogo.png" alt="LNU">
+  </div>
+  <div class="job-content">
+    <div class="job-title">Ivan Franko National University of Lviv</div>
+    <div class="job-company">Master's in Computer Science</div>
+    <p style="font-size:13.5px; color:#333; line-height:1.7; margin-top:5px;">
+      Software engineering, databases, web technologies, project management, and systems analysis.
+    </p>
+  </div>
+</div>
+
+<!-- ==================== CERTIFICATIONS ==================== -->
+<div class="section-title">Certifications</div>
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/agilespace_logo.jpeg" alt="Agile Space">
+  </div>
+  <div class="job-content">
+    <div class="job-title">Scrum Master Academy</div>
+    <div class="job-company">Agile Space</div>
+    <p style="font-size:13.5px; color:#333; line-height:1.7; margin-top:5px;">
+      Lean/Agile methodologies, team building and conflict management, facilitation and retrospectives, coaching and mentorship, Scrum metrics, and Agile leadership through change.
+    </p>
+  </div>
+</div>
+
+<!-- ==================== VOLUNTEERING ==================== -->
+<div class="section-title">Volunteering</div>
+<div class="job">
+  <div class="job-logo">
+    <img src="logos/lvivitcluster_logo.jpeg" alt="Lviv IT Cluster">
+  </div>
+  <div class="job-content">
+    <div class="job-title">IT Expert Program</div>
+    <div class="job-company">Lviv IT Cluster</div>
+    <p style="font-size:13.5px; color:#333; line-height:1.7; margin-top:5px;">
+      Contributed as an industry expert to a university modernization initiative - co-delivered lectures alongside faculty to bridge the gap between academic curricula and real-world front-end engineering practices.
+    </p>
+  </div>
+</div>
+
+
+<div class="footer">Lyubomyr Kuzenko · Engineering Manager · Front-End Tech Lead</div>
+
+</body>
+</html>
