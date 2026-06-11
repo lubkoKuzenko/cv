@@ -1,7 +1,10 @@
 # Lyubomyr Kuzenko
 
 **Front-End Tech Lead · Engineering Manager · Technical Project Manager**
-React & Angular · AI-first development · Lviv, Ukraine
+
+**React & Angular · AI-first development**
+
+📍 Lviv, Ukraine
 
 ## About me
 
