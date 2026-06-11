@@ -3,25 +3,13 @@
 **Front-End Tech Lead · Engineering Manager · Technical Project Manager**
 React & Angular · AI-first development · Lviv, Ukraine
 
-🟢 Reserved from mobilization · eligible for international travel
-
----
-
 ## About me
 
 Engineering Manager with **7+ years of leadership experience** and a strong hands-on engineering background. I scaled a front-end department from **5 to 25+ engineers**, conducted **200+ technical interviews**, and led presales engagements. I combine people management with Tech Lead expertise and AI-first workflows (Claude Code, GitHub Copilot).
 
-## Experience highlights
+## Core stack
 
-- **Front-End Department Manager** — ISsoft Ukraine (2022–present) · Levi9 Ukraine (2018–2022)
-  - Built and grew front-end departments of up to 25+ engineers
-  - Owned the full employee lifecycle: hiring, onboarding, performance, growth, retention
-  - Led presales, technical scoping, PoC delivery, and client project audits
-- **Senior Front-End Developer → Technical Lead** (2017–2022)
-  - Architected greenfield React & Angular apps, shared component libraries, and scalable state management
-- **JavaScript Developer** — EPAM Systems · UKEESS · Webicom (2011–2017)
-
-**Core stack:** TypeScript, React/Next.js, Angular, Node.js, RxJS, NgRx, testing (Jest, Playwright), CI/CD.
+TypeScript, React/Next.js, Angular, Node.js, RxJS, NgRx, testing (Jest, Playwright), CI/CD.
 
 ## Open to roles
 
