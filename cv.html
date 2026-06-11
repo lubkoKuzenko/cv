@@ -22,6 +22,17 @@
   .header { display: flex; align-items: flex-start; margin-bottom: 30px; }
   .header h1 { font-size: 32px; font-weight: bold; color: #1a1a2e; margin-bottom: 15px; }
   .subtitle { font-size: 14px; color: #555; margin-bottom: 15px; font-style: italic; }
+
+  /* ===== RESERVATION STATUS PILL ===== */
+  .status-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #eafaf0; color: #1e7a38;
+    border: 1px solid #b8e6c6;
+    font-size: 12.5px; font-weight: 600;
+    padding: 4px 12px; border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  .status-pill .dot { width: 7px; height: 7px; border-radius: 50%; background: #27ca40; }
   .contact-table { font-size: 14px; }
   .contact-table td { padding: 2px 0; }
   .contact-table .label { font-weight: bold; width: 130px; color: #333; }
@@ -88,6 +99,9 @@
   <div>
     <h1>Lyubomyr Kuzenko</h1>
     <div class="subtitle">Front-End Tech Lead | React & Angular | Engineering Manager | Technical Project Manager | AI</div>
+
+    <div class="status-pill"><span class="dot"></span>Reserved from mobilization · eligible for international travel</div>
+
     <table class="contact-table">
       <tr><td class="label">Email</td><td class="value">lubko.lintu@gmail.com</td></tr>
       <tr><td class="label">Phone</td><td class="value">+380 (96) 66-22-579</td></tr>
@@ -219,8 +233,6 @@
     <div class="entry-dates">November 2011 – November 2012 (~1 year)</div>
   </div>
 </div>
-
-<div class="page-break"></div>
 
 <div class="section-title">Education</div>
 <div class="entry">
